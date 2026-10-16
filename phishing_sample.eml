@@ -1,0 +1,54 @@
+Return-Path: <it-support@secure-office365-verify.com>
+Received: from mail-relay-ext-04.secure-office365-verify.com (203.0.113.47)
+    by mx1.domain.local with ESMTP id 4f9a2c1d; Mon, 24 Aug 2026 08:41:12 +0000
+Received: from [192.0.2.88] (unverified [192.0.2.88])
+    by mail-relay-ext-04.secure-office365-verify.com with ESMTPA id 7b3e91aa;
+    Mon, 24 Aug 2026 08:40:55 +0000
+Authentication-Results: mx1.domain.local;
+    spf=fail smtp.mailfrom=secure-office365-verify.com;
+    dkim=fail header.d=secure-office365-verify.com;
+    dmarc=fail (p=reject sp=reject dis=none) header.from=secure-office365-verify.com
+From: "IT Support Team" <it-support@secure-office365-verify.com>
+Reply-To: helpdesk-response@mail-verification-portal.ru
+To: employee@domain.local
+Subject: URGENT: Your Mailbox Storage Limit Exceeded - Action Required Within 24 Hours
+Date: Mon, 24 Aug 2026 08:41:00 +0000
+Message-ID: <a1b2c3d4-portal@mail-verification-portal.ru>
+X-Mailer: BulkMailer Pro 3.2
+Content-Type: multipart/mixed; boundary="BOUNDARY_X92"
+MIME-Version: 1.0
+
+--BOUNDARY_X92
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Employee,
+
+Your company mailbox has EXCEEDED its storage quota (99.8% used). Emails
+will begin BOUNCING within 24 hours unless you verify your account.
+
+Please verify your mailbox immediately to avoid service interruption:
+
+    Verify Now: hxxps://secure-office365-verify[.]com/verify-mailbox?user=employee&ref=8834f
+
+A verification form is also attached for your convenience: Mailbox_Verification_Form.docm
+(Open the attachment and enable editing to complete verification offline.)
+
+Failure to verify within 24 hours will result in permanent account suspension.
+
+Thank you,
+IT Support Team
+Office 365 Administration
+
+<!-- trk:aHR0cDovL21haWwtdmVyaWZpY2F0aW9uLXBvcnRhbC5ydS9iZWFjb24/aWQ9ODgzNA== -->
+
+--BOUNDARY_X92
+Content-Type: text/plain; charset="UTF-8"
+Content-Disposition: attachment; filename="Mailbox_Verification_Form.docm.txt"
+
+[This is a placeholder text file. The real malicious attachment's macro
+code is provided separately as Mailbox_Verification_Form_macro_source.bas
+- see Step 2 of the project guide. It represents the attachment referenced
+above.]
+
+--BOUNDARY_X92--
